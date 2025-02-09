@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.flash-sale {
+  margin-top: 30px;
+}
+
+.flash-sale h2 {
+  font-size: 24px;
+  color: #e53935;
+}
+
+.flash-sale p {
+  font-size: 18px;
+}
+
+.sale-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+  overflow-x: scroll;
+  /* border: 2px solid; */
+  margin-bottom: 300px;
+  width: 100%;
+}
+.sale-items::-webkit-scrollbar {
+  display: none;
+}
+.sale-item {
+  border: 1px solid #ccc;
+  /* padding: 10px; */
+  border-radius: 8px;
+  /* padding: 50px; */
+}
+.sale-item img{
+  width: 100%;
+}
+
+.sale-item h3 {
+  font-size: 20px;
+}
+
+.sale-item p {
+  font-size: 18px;
+  color: #388e3c;
+}
